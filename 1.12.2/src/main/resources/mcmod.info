@@ -1,13 +1,12 @@
 [
 {
   "modid": "pickupnoti",
-  "name": "PickUp Notification Mod",
-  "description": "Get a notification when you pickup an item.",
+  "name": "Pickup notifier",
+  "description": "Gives you a notification when you pick up an item.",
   "version": "${version}",
   "mcversion": "${mcversion}",
+  "url": "acegoal07.dev/projects/pickupnoti",
   "authorList": ["acegoal07"],
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
+  "credits": "Mod was made by acegoal07"
 }
 ]
