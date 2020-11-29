@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.12.2-1.0.0'
+version = '1.12.2-1.0.1'
 group = 'com.acegoal07.pickupnoti'
 archivesBaseName = 'pickupnoti'
 
@@ -50,7 +50,7 @@ jar {
         attributes([
             "Specification-Title": "examplemod",
             "Specification-Vendor": "examplemodsareus",
-            "Specification-Version": "1", // We are version 1 of ourselves
+            "Specification-Version": "1",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"examplemodsareus",
