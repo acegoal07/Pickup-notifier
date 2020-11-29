@@ -7,6 +7,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class pickupnotiEventHandler {
     @SubscribeEvent
     public void pickupItem(EntityItemPickupEvent event) {
-        event.getEntityPlayer().sendMessage(new TextComponentString(event.getEntityPlayer().getName()+" has picked up"+event.getItem().getCustomNameTag()));
+        event.getEntityPlayer().sendMessage(new TextComponentString(event.getEntityPlayer().getName()+" has picked up "+event.getItem().getDisplayName().getFormattedText()));
     }
 }
