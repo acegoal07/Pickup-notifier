@@ -1,0 +1,3 @@
+echo
+cls
+gradlew build
