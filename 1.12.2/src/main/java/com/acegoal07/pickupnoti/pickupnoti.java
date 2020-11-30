@@ -1,5 +1,6 @@
 package com.acegoal07.pickupnoti;
 
+import com.acegoal07.pickupnoti.events.pickupnotiEventHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
