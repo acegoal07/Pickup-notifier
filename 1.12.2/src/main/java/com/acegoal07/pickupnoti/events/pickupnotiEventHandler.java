@@ -1,5 +1,6 @@
-package com.acegoal07.pickupnoti;
+package com.acegoal07.pickupnoti.events;
 
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.event.entity.player.EntityItemPickupEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -11,6 +12,8 @@ public class pickupnotiEventHandler {
     {
         String user = event.getEntityPlayer().getName();
         String item = event.getItem().getDisplayName().getFormattedText();
+
+        
 
         event.getEntityPlayer().sendMessage(new TextComponentString(user+" has picked up "+item+" x"));
     }
