@@ -1,5 +1,5 @@
 echo
 cls
-echo begining build
+echo beginning build
 gradlew build
 pause
