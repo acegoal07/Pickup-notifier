@@ -3,7 +3,7 @@
   "modid": "pickupnoti",
   "name": "Pickup Notifier",
   "description": "Gives you a notification when you pick up an item.",
-  "version": "1.12.2-1.0.3",
+  "version": "1.12.2-1.0.4",
   "mcversion": "${mcversion}",
   "url": "https://acegoal07.dev/projects/pickupnoti",
   "authorList": ["acegoal07"],
