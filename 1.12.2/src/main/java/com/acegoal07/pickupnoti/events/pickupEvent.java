@@ -4,7 +4,7 @@ import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.event.entity.player.EntityItemPickupEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-public class pickupnotiEventHandler {
+public class pickupEvent {
 
     @SubscribeEvent
     public void pickupItem(EntityItemPickupEvent event)

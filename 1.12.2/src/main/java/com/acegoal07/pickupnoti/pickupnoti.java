@@ -1,6 +1,6 @@
 package com.acegoal07.pickupnoti;
 
-import com.acegoal07.pickupnoti.events.pickupnotiEventHandler;
+import com.acegoal07.pickupnoti.events.pickupEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -14,6 +14,6 @@ public class pickupnoti
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
-        MinecraftForge.EVENT_BUS.register(new pickupnotiEventHandler());
+        MinecraftForge.EVENT_BUS.register(new pickupEvent());
     }
 }
