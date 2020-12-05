@@ -11,8 +11,7 @@ import java.util.Date;
 public class pickupEvent {
 
     @SubscribeEvent
-    public void pickupItem(EntityItemPickupEvent event)
-    {
+    public void pickupItem(EntityItemPickupEvent event) {
         String player = event.getEntityPlayer().getName();
         String item = event.getItem().getItem().getDisplayName().toLowerCase();
         int amount = event.getItem().getItem().getCount();
