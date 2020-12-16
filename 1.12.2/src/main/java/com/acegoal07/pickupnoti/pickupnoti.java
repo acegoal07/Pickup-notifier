@@ -1,5 +1,6 @@
 package com.acegoal07.pickupnoti;
 
+import com.acegoal07.pickupnoti.events.deathEvent;
 import com.acegoal07.pickupnoti.events.pickupEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
@@ -15,5 +16,6 @@ public class pickupnoti
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
         MinecraftForge.EVENT_BUS.register(new pickupEvent());
+        MinecraftForge.EVENT_BUS.register(new deathEvent());
     }
 }
